@@ -21,7 +21,7 @@
 
 ```sh
 # Clone the repository
-$ https://github.com/asriamir/social-media-backend-DRF.git
+$ https://github.com/asriamir/social-media-backend-DRF-main.git
 $ cd social_media
 
 # Create virtual environment
