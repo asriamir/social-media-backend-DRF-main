@@ -57,9 +57,21 @@ $ docker-compose exec web python manage.py migrate
 # Create superuser inside Docker
 $ docker-compose exec web python manage.py createsuperuser
 ```
+
 ✅ The API is now running in a Docker container at `http://127.0.0.1:8000/`
 
----
+### ِDocker Commands for Management
+
+```sh
+# Start the containers
+$ docker-compose up -d
+# Stop the containers
+$ docker-compose down
+# Rebuild and restart the containers
+$ docker-compose up --build -d
+# View logs in real-time
+$ docker-compose logs -f
+```
 
 ## 📌 API Documentation
 
